@@ -1,0 +1,15 @@
+備忘録メモ：Git（CodeCommit）へのpush方法
+
+☆ git init                                    //レポジトリの作成 -> GUIの方が楽？
+
+① cd C:\Users\randy\PycharmProjects\-------- 　//cloneしたいファイル先のpathへ移動
+
+② git clone https://github.com/RandyGen/Smart119.git   //レポジトリのHTTP
+
+③ cd C:\Users\randy\PycharmProjects\Smart119\------   //cloneした場所のpathへ移動
+
+④ git add .
+
+⑤ git commit -m "コメント"
+
+⑥ git push
