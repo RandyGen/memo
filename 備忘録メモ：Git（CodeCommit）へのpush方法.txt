@@ -1,15 +1,39 @@
 備忘録メモ：Git（CodeCommit）へのpush方法
 
-☆ git init                                    //レポジトリの作成 -> GUIの方が楽？
+create github repsoity (name: ~~~)
 
-① cd C:\Users\randy\PycharmProjects\-------- 　//cloneしたいファイル先のpathへ移動
+② mkdir ~~~           (create new dir)
 
-② git clone https://github.com/RandyGen/Smart119.git   //レポジトリのHTTP
+③ cd ~~~              (move dir)
 
-③ cd C:\Users\randy\PycharmProjects\Smart119\------   //cloneした場所のpathへ移動
+④ ☆ git init          (new script)
 
-④ git add .
+  touch FILE_NAME      (create new script)
 
-⑤ git commit -m "コメント"
+④ ☆ git clone HTTP    (update scirpt)
 
-⑥ git push
+⑤ code .              (open VScode)
+
+  vi FILE_NAME         (write script on terminal)
+  
+    :                  (write)
+    
+    wq                 (fin)
+    
+    dd                 (delete row)
+
+  git diff             (display differecnt)
+  
+  git status           (display now status)
+  
+  git log              (display log)
+
+⑥ git add FILE_NAME   (add stagearea)
+
+⑦ git commit -m "comment"    (commit to remote reposity)
+
+⑧ git push -u origin master  (reflect change point to remote reposity)
+
+git remote -v
+
+git remote add origin HTTP
