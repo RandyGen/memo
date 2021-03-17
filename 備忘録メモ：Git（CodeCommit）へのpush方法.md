@@ -1,10 +1,10 @@
-備忘録メモ：Git（CodeCommit）へのpush方法
+# 備忘録メモ：Git（CodeCommit）へのpush方法
 
-create github repsoity (name: ~~~)
+create github repsoity (name: ---)
 
-② mkdir ~~~           (create new dir)
+② mkdir ---           (create new dir)
 
-③ cd ~~~              (move dir)
+③ cd ---              (move dir)
 
 ④ ☆ git init          (new script)
 
