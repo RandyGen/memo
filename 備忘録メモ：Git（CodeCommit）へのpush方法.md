@@ -1,6 +1,6 @@
 # 備忘録メモ：Git（CodeCommit）へのpush方法
 
-create github repsoity (name: ---)
+create github repository (name: ---)
   
 ② mkdir ---           (create new dir)
   
@@ -30,9 +30,9 @@ create github repsoity (name: ---)
 
 ⑥ git add FILE_NAME   (add stagearea)
   
-⑦ git commit -m "comment"    (commit to remote reposity)
+⑦ git commit -m "comment"    (commit to remote repository)
   
-⑧ git push -u origin master  (reflect change point to remote reposity)
+⑧ git push -u origin master  (reflect change point to remote repository)
   
 git remote -v
   
