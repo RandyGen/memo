@@ -30,10 +30,13 @@ create github repository (name: ---)
 
 ⑥ git add FILE_NAME   (add stagearea)
   
+  git remote add origin HTTP
+  
+- git rm --cached -r . (del add data)
+  
 ⑦ git commit -m "comment"    (commit to remote repository)
   
 ⑧ git push -u origin master  (reflect change point to remote repository)
   
 git remote -v
   
-git remote add origin HTTP
